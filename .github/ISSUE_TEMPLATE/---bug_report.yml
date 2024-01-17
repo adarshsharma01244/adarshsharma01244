@@ -1,47 +1,28 @@
-name: "\U0001F41B Bug report"
-description: Create a report to help us improve
-title: "[BUG]"
-labels: ["bug"]
+name: "\U0001F4A1 Feature request"
+description: Suggest an idea for this project
+title: "\U0001F4A1 [FEAT]"
+labels: ["enhancement"]
 body:
     - type: textarea
       attributes:
-        label: Describe the bug 🐛
-        description: A clear and concise description of what the bug is.
+        label: Is your feature request related to a problem? 😢 Please describe.
+        description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
         placeholder: |
           Your description goes here...
         
     - type: textarea
       attributes:
-          label: To Reproduce 🐣
+          label: Describe the solution you'd like 🤔
+          description: A clear and concise description of what you want to happen.
           placeholder: |
-            Steps to reproduce the behavior: |
-            1. Go to '...' |
-            2. Click on '....' |
-            3. See error
+            Your description goes here...
           
     - type: textarea
       attributes:
-        label: Expected behavior 🤔
-        description: A clear and concise description of what you expected to happen.
+        label: Describe alternatives you've considered 🧐
+        description: A clear and concise description of any alternative solutions or features you've considered.
         placeholder: |
           Your description goes here...
-    
-    - type: textarea
-      attributes:
-        label: Screenshots 🧐
-        description: If applicable, add screenshots to help explain your problem.
-        placeholder: |
-          Attach your screenshots here...
-
-    - type: input
-      attributes:
-        label: Your operating system name
-        placeholder: For example, Linux
-
-    - type: input
-      attributes:
-        label: Your operating system version
-        placeholder: For example, v22
 
     - type: textarea
       attributes:
@@ -50,4 +31,4 @@ body:
         placeholder: |
           Your additional context goes here...
         
-        
+    
