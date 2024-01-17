@@ -11,7 +11,7 @@ body:
           Your description goes here...
         
     - type: textarea
-        attributes:
+      attributes:
           label: To Reproduce 🐣
           placeholder: |
             Steps to reproduce the behavior: |
